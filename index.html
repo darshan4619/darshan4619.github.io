@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Dashboard</title>
+  <!--Linking the CSS File-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Space Dashboard</h1>
+  </header>
+  
+  <!--Section to display The current Celestial event i.e, Astronomical Picture of the day using NASA API-->
+  <section id="celestial-events" class="card">
+    <h2 class="left">Celestial Events</h2>
+    <div id="celestial-events-data" class="right"></div>
+  </section>
+  
+  <!--Section to display The current Satellite Positions using NYO API-->
+  <section id="satellite-positions" class="card">
+    <h2 class="left">Satellite Positions</h2>
+    <div id="satellite-positions-data" class="right"></div>
+  </section>
+  
+  <!--Section to display Upcoming Space Launches using The Space Devs API-->
+  <section id="upcoming-launches" class="card">
+    <h2 class="left">Upcoming Space Launches</h2>
+    <div id="upcoming-launches-data" class="right"></div>
+  </section>
+
+  <!--Linking the Javascript File-->
+  <script src="script.js"></script>
+  
+</body>
+</html>
